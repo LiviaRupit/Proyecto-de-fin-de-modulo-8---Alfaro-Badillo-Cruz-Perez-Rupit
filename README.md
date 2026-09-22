@@ -113,10 +113,30 @@ Modelos posibles: Clasificación, clustering territorial, modelos temporales o f
 
 Datos complementarios sugeridos: Temperatura y precipitación, niveles de presas, disponibilidad de agua, agricultura, población, uso de suelo y producción agrícola.
 
-NOTA SOBRE AUTORÍA Y COMPRENSIÓN
+INFORMACIÓN CONTENIDA EN LA BASE DE DATOS 
 
+Indicadores de Intensidad de Sequía (Escala NADAM / CONAGUA)
+El Monitor de Sequía de México sigue la metodología del North American Drought Monitor (NADAM). Las columnas numéricas o binarias asociadas representan las siguientes categorías:
+Sin Seca / Sin Sequía: Municipio sin afectación de precipitación o humedad.
+D0 (Anormalmente Seco): Condición de sequedad previa o posterior a una sequía; no se considera sequía en sí, sino una alerta temprana.
+D1 (Sequía Moderada): Afectaciones leves en cultivos y pastos; riesgo bajo de incendios forestales.
+D2 (Sequía Severa): Probables pérdidas en cultivos/pastos; escasez común de agua.
+D3 (Sequía Extrema): Pérdidas mayores en cultivos y pastos; escasez generalizada de agua.
+D4 (Sequía Excepcional): Pérdidas excepcionales en cultivos y pastizales; situación de emergencia por escasez de agua en embalses y pozo.
+Clave_Intensidad / Categoria: Valor textual o código numérico (0 a 4 o D0 a D4) que asigna la categoría máxima que registró el municipio en el mes.
+
+Indicadores Climatológicos Integrados
+Los datos de origen con los que CONAGUA / SMN calcula la columna final del municipio se basan en múltiples índices estandarizados:
+SPI (Standardized Precipitation Index): Índice Estandarizado de Precipitación.
+SPEI: Índice de Precipitación y Evapotranspiración Estandarizado.
+VHI / NDVI: Índices de salud y verdor de la vegetación obtenidos por satélite (AVHRR/MODIS).
+Porcentaje de Humedad del Suelo: Estimación del déficit hídrico en la capa superficial y profunda del suelo.
+
+NOTA SOBRE AUTORÍA Y COMPRENSIÓN
 Para el desarrollo del proyecto es posible usar documentación, bibliotecas, recursos en línea y herramientas de inteligencia artificial como apoyo. Sin embargo, durante la evaluación oral deberán demostrar comprensión de TODO lo entregado.
 
 Cualquier integrante debe poder explicar cómo se obtuvieron los datos, cómo se limpiaron, por qué se usó cierto modelo, cómo se evaluó, qué significa el resultado, cómo se construyó la visualización, cuáles son las principales limitaciones, etc.
 
 La incapacidad para explicar alguna parte del trabajo podrá afectar la calificación individual.
+
+

@@ -109,6 +109,15 @@ Posibles preguntas:
     ¿Existe relación con variables climatológicas?
     ¿Puede anticiparse un cambio en la intensidad de sequía?
 
+Preguntas abordadas:
+
+    ¿Cómo se distribuye la intensidad de la sequía entre los municipios de México en enero de 2026 y qué características presentan los municipios con mayor afectación?
+    ¿Qué estados concentran la mayor cantidad de municipios con sequía?
+    ¿Qué categorías de sequía (D0–D4) predominan?
+    ¿Qué regiones presentan las categorías más intensas?
+    ¿Existen grupos de municipios con patrones similares de afectación?
+    ¿Existe alguna relación entre la intensidad de sequía y la vulnerabilidad social, económica o ambiental?
+
 Modelos posibles: Clasificación, clustering territorial, modelos temporales o forecasting.
 
 Datos complementarios sugeridos: Temperatura y precipitación, niveles de presas, disponibilidad de agua, agricultura, población, uso de suelo y producción agrícola.
